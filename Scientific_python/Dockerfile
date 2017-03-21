@@ -8,6 +8,7 @@ MAINTAINER Ari Hartikainen <ari.hartikainen@aalto.fi>
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 # Create folder later
+# Is this step even needed? (see line 19)
 ENV PATH /opt/conda/bin:$PATH
 
 # Minimize memory usage with one RUN command
