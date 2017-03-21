@@ -23,7 +23,7 @@ e.g
 
 # Run from terminal
 
-    docker run -v /Notebooks:/Notebooks -it docker-py36 /bin/bash
+    docker run -v /Notebooks:/Notebooks -w /Notebooks -it docker-py36 /bin/bash
     
 # Run Jupyter server on localhost 
 
