@@ -24,8 +24,16 @@ e.g
 
     docker run -v /Notebooks:/Notebooks -it docker-py36
     
-# Run Jupyter server on localhost (Windows 7: Virtualbox IP)
+# Run Jupyter server on localhost 
 
     docker run -v /Notebooks:/Notebooks -w /Notebooks -it -p 8888:8888 docker-py36 jupyter notebook --ip 0.0.0.0 --no-browser
 
+and after that open your browser in 
+
+    localhost:8888
+    
+    # windows 7 use ip address for Virtualbox
+    192.168.0.100:8888
+    
+the token for notebook is shown in docker terminal.
     
