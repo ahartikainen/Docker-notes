@@ -13,7 +13,7 @@ Example
     
 # Add local folder for virtual box (for Windows 7 only)
 
-Open Virtualbox and add Shared folder for default OS.
+Open Virtualbox and add Shared folder for 'default' OS.
 Shared folder is found in root
 
 e.g
