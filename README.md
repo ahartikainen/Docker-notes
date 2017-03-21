@@ -14,7 +14,7 @@ Example
 # Add local folder for virtual box (for Windows 7 only)
 
 Open Virtualbox and add Shared folder for 'default' OS.
-Shared folder is found in root
+Shared folder is found under root
 
 e.g
 
