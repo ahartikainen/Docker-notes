@@ -19,8 +19,9 @@ Shared folder is found under root
 e.g
 
     E:\Notebooks --> /Notebooks
+    /home/user/Documents/Notebooks --> /Notebooks
 
-# Run commandline
+# Run from terminal
 
     docker run -v /Notebooks:/Notebooks -it docker-py36
     
